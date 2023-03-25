@@ -1,0 +1,43 @@
+body{
+        text-align: center;
+background: linear-gradient(to bottom, white, black);
+    }
+   
+p {
+	color: white;
+}
+#checkers {
+        width: 411px;
+        width: 411px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border: 1px solid black;
+}
+
+.square{
+        border: 1px solid black;
+        width:50px;
+        height: 50px;
+        background-color: aliceblue;
+}
+
+.black{
+        background-color: darkgrey;
+}
+/* this will create a around checker piece with a border */
+.checker{
+        width: 45px;
+        height: 45px;
+        margin: 2.5px;
+        border-radius: 50%;
+        box-shadow: 4px 4px 4px gray;
+}
+/*This will create a ivory piece*/
+.checker-w{
+        background-color: ivory;
+}
+/*This will create a black piece*/
+.checker-b{
+        background-color: black;
+}
